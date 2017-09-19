@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>PICTURES</title>
-  </head>
-  <body>
-    <div class="w3-card-2 topnav" id="topnav" style="position: relative; top opx;">
-      <div class="overflow:auto">
-        <div class="w3-bar w3-left" style="width:100%;overflow:hidden;height:44px">
-          <button class="navbuttons" id="home" type="button"
-          onclick="toggleHome()">I Home I</button>
-          <button class="navbuttons" id="projects" type="button"
-          onclick="toggleProjects()">I Projects I</button>
-          <button class="navbuttons" id="Contact" type="button"
-          onclick="toggleContacts()">I Contact I</button>
-          <button class="navbuttons" id="about" type="button"
-          onclick="toggleAbout()">I About I</button>
 
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mänks Pictures</title>
+  <style>
+  h1::first-letter {
+      font-size: 100%;
+      color: red;
+  }
+  </style>
+</head>
+<body>
 
-    </div>
-  </body>
+  <header id="header">
+    <div id="header-content">
+  <h1>project mänks pictures</h1>
+  <nav>
+    <ul>
+    <button class="navbuttons" id="home" type="button"
+    onclick="location.href='http://www.google.com'">I Home I</button>
+    <button class="navbuttons" id="projects" type="button"
+    onclick="location.href='https://www.instagram.com/mangewallin/?hl=sv'">I Projects I</button>
+    <button class="navbuttons" id="Contact" type="button"
+    onclick="location.href='mailto:magnus.wallin@student.kyh.se';">I Contact I</button>
+    <button class="navbuttons" id="about" type="button"
+    onclick="location.href='https://www.facebook.com/mange.wallin'">I About I</button>
+  </ul>
+</nav>
+<footer id="footer">
+      <div id="footer-content">
+        <div id="text">
+          <p id="Copyright">© 2017 Magnus Wallin</p>
+      </div>
+</body>
 </html>
